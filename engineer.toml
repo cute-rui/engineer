@@ -1,0 +1,8 @@
+destdir = './test'
+listenaddr = 'localhost:1324'
+postrun = ''
+repo = 'https://github-api.violet.moe/repos/TUT-LIFRMer/workflow/releases'
+proxydomain = "github-api.violet.moe"
+secret = '12345'
+token = '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'
+type = './'
