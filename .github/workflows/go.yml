@@ -42,7 +42,7 @@ jobs:
 
       - name: Build Unix-Like
         if: matrix.platform != 'windows-latest'
-        run: go build -o engineer.srv -v ./cmd/main.go
+        run: go build -o engineer.srv -v ./main.go
 
       - name: Linux - Uploading Artifact
         if: matrix.platform == 'ubuntu-latest'
